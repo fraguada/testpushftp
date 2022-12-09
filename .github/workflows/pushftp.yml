@@ -25,4 +25,4 @@ jobs:
           port: 21
           username: luis@elizabethandluis.net
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ./test
+          server-dir: ./test/
