@@ -1,4 +1,4 @@
-name: pushtoftp
+name: Deploy Site
 on: [workflow_dispatch]
 jobs:
   deploy:
@@ -15,9 +15,9 @@ jobs:
 #          extended: true
 #      - name: 🔨 Build
 #        run: hugo --minify
-      - name: Create file
+      - name: 🔨 Create file
         run: |
-          printf "Hello\nWorld\n" > hw.txt
+          printf "Hello\nWorld\nElizabeth" > hw.txt
       - name: 📂 Push ftp
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
