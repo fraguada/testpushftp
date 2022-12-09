@@ -21,7 +21,7 @@ jobs:
       - name: 📂 Push ftp
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: ftp.elizabethandluis.com
+          server: ftp.elizabethandluis.net
           port: 21
           username: luis@elizabethandluis.net
           password: ${{ secrets.FTP_PASSWORD }}
